@@ -39,7 +39,7 @@
         transition: all 0.3s ease-out;
       }
       &:hover {
-        color: #00a8cc;
+        color: #ffd700;
         svg {
           opacity: 0;
         }
@@ -77,7 +77,7 @@
     }
     a.active {
       svg {
-        color: #00a8cc;
+        color: #ffd700;
       }
     }
   }
@@ -99,7 +99,7 @@ ul {
       font-size: 15px;
       line-height: 16px;
       &:hover svg {
-        color: #00a8cc;
+        color: #ffd700;
       }
     }
   }
