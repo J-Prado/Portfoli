@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-s.png';
