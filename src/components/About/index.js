@@ -32,19 +32,16 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          <p align="justify">
+            I'm a Petroleum Engineer, Chemical Engineering Student that wanted
+            to go beyond, and now became a FullStack Developer. As a developer,
+            I look forward my first opportunity to work with an IT company where
+            I could learn about the latest technologies on challenging and
+            diverse projects.
           </p>
-          <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          <p align="justify">
+            I'm confident, naturally curious, and perpetually working on
+            improving my know-how.
           </p>
         </div>
 

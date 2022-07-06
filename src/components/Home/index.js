@@ -7,13 +7,20 @@ import Logo from './Logo';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['J', 'u', 'a', 'n'];
+  const nameArray = ['u', 'a', 'n'];
   const jobArray = [
-    'W',
-    'e',
-    'b',
+    'F',
+    'u',
+    'l',
+    'l',
+    '-',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
-    'd',
+    'D',
     'e',
     'v',
     'e',
@@ -22,7 +29,6 @@ const Home = () => {
     'p',
     'e',
     'r',
-    '.',
   ];
 
   useEffect(() => {
