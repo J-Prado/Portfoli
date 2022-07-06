@@ -7,11 +7,18 @@ import Logo from './Logo';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['J', 'u', 'a', 'n'];
+  const nameArray = ['u', 'a', 'n'];
   const jobArray = [
-    'W',
-    'e',
-    'b',
+    'F',
+    'u',
+    'l',
+    'l',
+    ' ',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
     'd',
     'e',
@@ -56,7 +63,7 @@ const Home = () => {
               idx={19}
             />
           </h1>
-          <h2>FullStack Developer / JavaScript Developer / Engineer</h2>
+          <h2>FullStack Developer || JavaScript Developer || Engineer</h2>
           <Link to="/contact" className="flat-button">
             {' '}
             CONTACT ME
