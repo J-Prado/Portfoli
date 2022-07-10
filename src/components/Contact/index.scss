@@ -70,6 +70,10 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+    &:hover {
+      background: #00a8cc;
+      color: #333;
+    }
   }
 }
 
