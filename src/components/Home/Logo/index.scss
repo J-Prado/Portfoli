@@ -19,3 +19,17 @@
     z-index: 1;
   }
 }
+@media screen and (max-width: 800px) {
+  .logo-container {
+    display: block;
+    position: absolute;
+
+    .logo-image {
+      position: absolute;
+      transform: rotateY(10deg) !important;
+      width: 70%;
+      right: -70px;
+      z-index: -1;
+    }
+  }
+}

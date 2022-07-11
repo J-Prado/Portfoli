@@ -51,8 +51,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am really interested in working with a company in IT and to learn
-            from their projects.
+            I am really interested in working with an IT company. You can be
+            sure that I will do a great job. I can not wait to work with
+            challenging projects. If you want know more about me, you can
+            contact me here.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
