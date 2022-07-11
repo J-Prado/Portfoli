@@ -1,0 +1,55 @@
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: #00a8cc;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #00a8cc;
+  transition: #27496d;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  &:hover {
+    background: #00a8cc;
+    color: #333;
+    border: transparent;
+  }
+}
+.projects {
+  width: 300px;
+  display: flex;
+}
+
+.projects-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8rem;
+}
+
+.indiv-projects {
+  background: #00a8cc;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: #00a8cc;
+  height: 33rem;
+  width: 32rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(12, 123, 147, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  -webkit-backdrop-filter: blur(9.6px);
+  border: 1px solid rgba(12, 123, 147, 0.33);
+  h2 {
+    align-self: flex-start;
+    font-size: 2rem;
+    text-shadow: 2px -4px 6px #00a8cc;
+  }
+}
