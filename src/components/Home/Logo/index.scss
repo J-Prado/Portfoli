@@ -22,14 +22,15 @@
 @media screen and (max-width: 800px) {
   .logo-container {
     display: block;
-    position: absolute;
+
+    z-index: -10;
 
     .logo-image {
       position: absolute;
-      transform: rotateY(10deg) !important;
-      width: 70%;
-      right: -70px;
-      z-index: -1;
+      transform: rotateZ(25deg) !important;
+      top: 500px;
+      width: 25%;
+      margin: auto 210px;
     }
   }
 }
