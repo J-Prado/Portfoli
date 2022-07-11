@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss';
 import pokemon from '../../assets/images/pokemon.png';
 import ClickCare from '../../assets/images/clickcare.png';
+import Loader from 'react-loaders';
 
 const projects = [
   {
@@ -26,27 +27,30 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="container projects-page">
-      {projects?.map(({ id, title, img, gitHub, description, deploy }) => {
-        return (
-          <div ket={id} className="indiv-projects">
-            <div className="projects">
-              <img className="projects image" src={img} alt={title} />
+    <>
+      <div className="container projects-page">
+        {projects?.map(({ id, title, img, gitHub, description, deploy }) => {
+          return (
+            <div ket={id} className="indiv-projects">
+              <div className="projects">
+                <img className="projects image" src={img} alt={title} />
+              </div>
+              <h2>{title}</h2>
+              <p align="justify">{description}</p>
+              <div>
+                <a href={gitHub} className="btn">
+                  Git Hub
+                </a>
+                <a href={deploy} className="btn">
+                  Deploy
+                </a>
+              </div>
             </div>
-            <h2>{title}</h2>
-            <p align="justify">{description}</p>
-            <div>
-              <a href={gitHub} className="btn">
-                Git Hub
-              </a>
-              <a href={deploy} className="btn">
-                Deploy
-              </a>
-            </div>
-          </div>
-        );
-      })}
-    </div>
+          );
+        })}
+      </div>
+      <Loader type="pacman" />
+    </>
   );
 };
 
