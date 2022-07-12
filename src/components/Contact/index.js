@@ -7,7 +7,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
 const Contact = () => {
-  const position = [-17, -60];
+  const position = [-17.382231, -66.1518];
   const [letterClass, setLetterClass] = useState('text-animate');
   const form = useRef();
 
