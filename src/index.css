@@ -15,3 +15,8 @@ a {
   text-decoration: none;
   font-family: 'Coolvetica';
 }
+@media screen and (max-width: 800px) {
+  body {
+    overflow: scroll;
+  }
+}

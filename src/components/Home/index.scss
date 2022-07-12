@@ -79,12 +79,12 @@ h2 {
     }
     h1 {
       font-size: 3rem;
+
       &::before {
         content: '<h1>';
         font-size: 1.8rem;
         margin-top: -20px;
         left: 0px;
-        opacity: 0.6;
       }
       &::after {
         content: '<h1/>';

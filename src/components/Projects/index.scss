@@ -56,3 +56,26 @@
     color: white;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .btn {
+    &:hover {
+    }
+  }
+  .projects {
+  }
+
+  .projects-page {
+    .other {
+      display: inline-flex;
+      flex-wrap: wrap;
+      margin-bottom: 80px;
+      width: 100%;
+    }
+  }
+
+  .indiv-projects {
+    h2 {
+    }
+  }
+}
