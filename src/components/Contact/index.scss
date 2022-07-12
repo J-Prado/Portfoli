@@ -146,21 +146,21 @@
   .map-wrap {
     left: 60px;
     width: 70%;
-    background: rgba(8, 253, 216, 0.1);
+    background: none;
     position: absolute;
     top: 610px;
 
-    padding-bottom: 70px;
+    padding-bottom: 80px;
   }
 
   .leaflet-container {
   }
 
   .info-map {
-    border-radius: 30px;
     width: 40%;
+    padding: 10px;
     position: absolute;
-    top: 590px;
+    top: 595px;
     left: 15%;
     font-size: 1rem;
     span {
