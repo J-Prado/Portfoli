@@ -118,3 +118,53 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+      li {
+      }
+
+      li.half {
+      }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+    }
+
+    textarea {
+    }
+
+    .flat-button {
+    }
+  }
+
+  .map-wrap {
+    left: 60px;
+    width: 70%;
+    background: rgba(8, 253, 216, 0.1);
+    position: absolute;
+    top: 610px;
+
+    padding-bottom: 70px;
+  }
+
+  .leaflet-container {
+  }
+
+  .info-map {
+    border-radius: 30px;
+    width: 40%;
+    position: absolute;
+    top: 590px;
+    left: 15%;
+    font-size: 1rem;
+    span {
+      font-size: 1rem;
+    }
+  }
+}
