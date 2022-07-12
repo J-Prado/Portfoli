@@ -117,13 +117,17 @@
     align-items: center;
     width: 100%;
     height: max-content;
-    top: 75rem;
+    top: auto;
+    bottom: 0px;
     position: fixed;
     min-height: 100px;
     .logo {
+      padding: 0%;
       display: block;
       position: fixed;
       left: 1rem;
+      bottom: 0;
+      top: auto;
     }
     nav {
       background: rgba(0, 0, 0, 0.3);
@@ -138,7 +142,8 @@
       border-radius: 3rem;
       z-index: 2;
       position: fixed;
-      top: 89.5rem;
+      top: auto;
+      bottom: 0%;
       a {
         i {
         }
@@ -180,6 +185,8 @@
     ul {
       display: flex;
       justify-content: flex-end;
+      bottom: 0;
+      top: auto;
       li {
         a {
           padding: 7px 0;
