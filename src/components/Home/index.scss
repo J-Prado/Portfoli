@@ -2,7 +2,7 @@
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 50%;
+    top: 40%;
     transform: transtalteY(-50%);
     width: 40%;
     max-height: 90%;
@@ -63,8 +63,8 @@ h2 {
   padding: 10px 18px;
   border: 1px solid #00a8cc;
   margin-top: 25px;
-  margin-right: 110px;
-  float: right;
+  margin-right: 8rem;
+  float: left;
   animation: fadeIn 1s 1.8s backwards;
   white-space: nowrap;
   &:hover {
@@ -105,6 +105,5 @@ h2 {
     padding: 1rem 1.8rem;
     margin-top: 25px;
     float: left;
-    white-space: nowrap;
   }
 }

@@ -40,6 +40,24 @@ const About = () => {
             diverse projects.
           </p>
           <p align="justify">
+            As full stack developer now I can handle technologies as:
+          </p>
+          <ul className="list">
+            <li>NodeJs</li>
+            <li>Express</li>
+            <li>ReactJs</li>
+            <li>Redux</li>
+            <li>SQL</li>
+            <li>Postgres</li>
+            <li>Sequelize</li>
+          </ul>
+          <p align="justify">
+            {' '}
+            I also can deal with SCRUM methodology as it is an important skill
+            that everyone in IT industry must know.
+          </p>
+
+          <p align="justify">
             I'm confident, naturally curious, and perpetually working on
             improving my know-how.
           </p>
