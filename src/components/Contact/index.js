@@ -4,9 +4,12 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import AnimatedLetters from '../AnimatedLetters';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 import './index.scss';
 
 const Contact = () => {
+  const MySwal = withReactContent(Swal);
   const position = [-17.382231, -66.1518];
   const [letterClass, setLetterClass] = useState('text-animate');
   const form = useRef();
@@ -29,12 +32,27 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message successfully sent!');
-          window.location.reload(false);
+          MySwal.fire({
+            title: 'Great!',
+            text: 'Message successfully sent!',
+            icon: 'success',
+            confirmButtonText: 'Cool',
+            confirmButtonColor: '#0C7B93',
+          }).then(() => {
+            window.location.reload(false);
+          });
+          // alert('Message successfully sent!');
         },
         (e) => {
           // console.log(e);
-          alert('Failed to send the message, please try again');
+          MySwal.fire({
+            title: 'Sorry!',
+            text: 'Please try Again!',
+            icon: 'error',
+            confirmButtonText: 'Cool',
+            confirmButtonColor: '#0C7B93',
+          });
+          // alert('Failed to send the message, please try again');
         }
       );
   };
