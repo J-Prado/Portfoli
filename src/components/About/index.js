@@ -53,10 +53,9 @@ const About = () => {
           </ul>
           <p align="justify">
             {' '}
-            I also can deal with SCRUM methodology as it is an important skill
+            I can also deal with SCRUM methodology as it is an important skill
             that everyone in IT industry must know.
           </p>
-
           <p align="justify">
             I'm confident, naturally curious, and perpetually working on
             improving my know-how.
