@@ -64,7 +64,7 @@ const Home = () => {
           </h1>
           <h2>Full-Stack Developer || JavaScript Developer || Engineer</h2>
           <a
-            href="https://drive.google.com/file/d/1p6jzs4VzKePDvkXhaQmIBdfkFC47JTfX/view?usp=sharing"
+            href="https://drive.google.com/file/d/17eUXmjLb40hN484bj0JcYzrI231Slnx3/view?usp=sharing"
             className="flat-button"
           >
             DOWNLOAD CV
