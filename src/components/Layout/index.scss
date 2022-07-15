@@ -62,7 +62,6 @@
     left: 10px;
 
     &:before {
-      content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
       color: #00a8cc;
       font-size: 1.8rem;
@@ -74,7 +73,6 @@
     }
 
     &:after {
-      content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
       color: #00a8cc;
       font-size: 1.8rem;
@@ -188,7 +186,6 @@
       }
 
       &:after {
-        content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
         color: #00a8cc;
         font-size: 1.8rem;

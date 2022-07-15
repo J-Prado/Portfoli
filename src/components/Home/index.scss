@@ -14,7 +14,6 @@
     font-family: 'Coolvetica';
     font-weight: 400;
     &::before {
-      content: '<h1>';
       font-family: 'La Belle Aurore';
       color: #00a8cc;
       font-size: 18px;
@@ -24,7 +23,6 @@
       opacity: 0.6;
     }
     &::after {
-      content: '<h1/>';
       font-family: 'La Belle Aurore';
       color: #00a8cc;
       font-size: 18px;
@@ -74,20 +72,21 @@ h2 {
 }
 @media screen and (max-width: 800px) {
   .home-page {
+    height: 100vh;
+
     .text-zone {
+      top: 15%;
       width: 75%;
     }
     h1 {
       font-size: 3rem;
 
       &::before {
-        content: '<h1>';
         font-size: 1.8rem;
         margin-top: -20px;
         left: 0px;
       }
       &::after {
-        content: '<h1/>';
         font-size: 1.8rem;
         margin-top: 10px;
         margin-left: 10px;
