@@ -32,7 +32,7 @@ const projects = [
     gitHub: 'https://github.com/J-Prado/Sport_News',
     description:
       'Next js First Application steps to understand the framework and to have clear what can be done with this Front End technology.',
-    deploy: 'https://deploy-click-care.vercel.app/',
+    deploy: 'https://sport-news-rho.vercel.app/',
   },
 ];
 
