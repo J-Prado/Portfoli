@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './index.scss';
 import pokemon from '../../assets/images/pokemon.png';
 import ClickCare from '../../assets/images/clickcare.png';
+import sportNew from '../../assets/images/sportNews.png'
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 
@@ -24,11 +25,20 @@ const projects = [
       'To become a web developer a final project was needed and with other 7 members in the teamwe used SCRUM methodology to build a web page (I worked principally as a front end developer).',
     deploy: 'https://deploy-click-care.vercel.app/',
   },
+  {
+    id: 3,
+    title: 'Sport News',
+    img: sportNew,
+    gitHub: 'https://github.com/J-Prado/Sport_News',
+    description:
+      'Next js First Application steps to understand the framework and to have clear what can be done with this Front End technology.',
+    deploy: 'https://deploy-click-care.vercel.app/',
+  },
 ];
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const form = useRef();
+  // const form = useRef();
 
   useEffect(() => {
     setTimeout(() => {
